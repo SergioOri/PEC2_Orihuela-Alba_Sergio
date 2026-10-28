@@ -36,8 +36,11 @@ class SistemaMon {
         const segundos = (millis() - this.inicio) / 1000;
         //Durante el primer segundo solo salen murciélagos
         const imgs = segundos < 1 ? [imagenes[0]] : imagenes;
+        /*Calculamos los monstruos que salen por tanda según los segundos, 
+        limitamos entre 1 y el máximo*/
+        const cantidad = constrain(floor(map(segundos, 0,5,1,this.maxMonstruos)),1,this.maxMonstruos);
         //Creamos una tanda de monstruos en la posición actual de la boca
-        for (let i = 0; i < this.maxMonstruos; i++) {
+        for (let i = 0; i < cantidad; i++) {
           this.grupoMonstruo.push(new Monstruos(this.x, this.y, imgs));
         }
       }
