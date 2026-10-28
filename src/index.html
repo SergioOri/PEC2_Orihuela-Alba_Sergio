@@ -1,51 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="librerias/p5.js"></script>
-    <script src="librerias/p5.sound.min.js"></script>
-    <script src="librerias/ml5.js"></script>
+<html lang="es">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Rubik+Wet+Paint&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <script src="librerias/p5.js"></script>
+  <script src="librerias/p5.sound.min.js"></script>
+  <script src="librerias/ml5.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta charset="utf-8" />
-  </head>
-  <body>
-    <main id="juego">
-      <div id="pantallaCarga">
-        <div class="contenido">
-          <img
-            src="media/image/img1.png"
-            alt="murcielago"
-            class="decoracion"
-            id="image1"
-          />
-          <div class="centro">
-            <h1>HEALTHY SMILE</h1>
-            <button id="btnEmpezar" class="boton">EMPEZAR</button>
-            <div id="cargaInfo" class="oculta">
-              <p class="cargando">Cargando . . .</p>
-            </div>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8" />
+  <title>Healthy Smile</title>
+</head>
+
+<body>
+  <main id="juego">
+    <div id="pantallaCarga">
+      <div class="contenido">
+        <img src="media/image/img1.png" alt="murciélago" class="decoracion" id="image1" />
+        <div class="centro">
+          <h1>HEALTHY SMILE</h1>
+          <button id="btnEmpezar" class="boton">EMPEZAR</button>
+          <div id="cargaInfo" class="oculta">
+            <p class="cargando">Cargando . . .</p>
           </div>
-
-          <img
-            src="media/image/img2.png"
-            alt="fantasma"
-            class="decoracion"
-            id="image2"
-          />
         </div>
+
+        <img src="media/image/img2.png" alt="fantasma" class="decoracion" id="image2" />
       </div>
-    </main>
-    <script src="sketch.js"></script>
-    <script src="clases/particulas.js"></script>
-    <script src="clases/sistemaPar.js"></script>
-    <script src="clases/monstruos.js"></script>
-    <script src="clases/sistemaMon.js"></script>
-  </body>
+    </div>
+  </main>
+  <script src="sketch.js"></script>
+  <script src="clases/particulas.js"></script>
+  <script src="clases/sistemaPar.js"></script>
+  <script src="clases/monstruos.js"></script>
+  <script src="clases/sistemaMon.js"></script>
+</body>
+
 </html>
