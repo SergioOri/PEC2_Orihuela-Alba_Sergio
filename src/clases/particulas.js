@@ -30,7 +30,7 @@ class Particulas {
   display() {
     //Mostramos la partícula
     noStroke();
-    fill(255, 0, 0, this.vida);
+    fill(176, 0, 32, this.vida);
     ellipse(this.pos.x, this.pos.y, random(7, 10), random(7, 10));
   }
   finish() {
