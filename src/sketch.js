@@ -64,7 +64,7 @@ async function iniciar() {
 }
 
 function draw() {
-  background(0);
+  background(26, 11, 46);
   //Mostramos el texto de ayuda según el estado de la cámara
   actualizarTexto();
   //Debemos llenar toda la pantalla con el video de manera proporcionada
