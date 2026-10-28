@@ -18,6 +18,7 @@ La app se ejecuta en modo kiosk, para salir de ella es necesario pulsar la secue
 - **Rust**: Es necesario instalarlo desde su página web (https://rust-lang.org/es/) . Para comprobarlo requiere escribir “rustc --version” y “cargo --version”.
 - **Microsoft C++ Build Tools**: Al instalarlo se requiere seleccionar la casilla “Desarrollo para el escritorio con C++”. Rust lo requiere.
 - **WebView2**: Está incluido en los sistemas Windows 10/11.
+- Se requiere internet (el primer inicio)
 
 ## Instalación y ejecución
 En la carpeta del proyecto, con la terminal hay que escribir:
