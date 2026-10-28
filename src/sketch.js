@@ -1,5 +1,5 @@
 //------ CONSTANTES ------//
-const umbral = 0.65; //Proporción alto/ancho de los labios
+const umbral = 0.45; //Proporción alto/ancho de los labios
 const APERTURA_MIN = 90; //Diagonal de los labios cuando la boca esta poco abierta
 const APERTURA_MAX = 130; //Diagonal con la boca muy abierta
 const maxOpa = 127; //Opacidad máxima del filtro
